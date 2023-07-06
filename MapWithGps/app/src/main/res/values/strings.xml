@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MapWithGps</string>
+    <string name="map_key" translatable="false">AIzaSyBPoSfUVsXkNcjYjqeDtwGIz1KgTeQpvC4</string>
+</resources>

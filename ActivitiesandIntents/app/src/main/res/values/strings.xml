@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activities and Intents</string>
+    <string name="entertext">Enter message here</string>
+    <string name="senbuttonval">Send</string>
+</resources>

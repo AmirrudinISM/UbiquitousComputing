@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fab_material_blue_500"
+    android:orientation="vertical"
+    tools:context=".VaccinationCertificate">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:background="@color/fab_material_blue_500"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/certTitle"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Digital Certificate"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@color/fab_material_blue_500"
+            android:padding="20sp"
+            android:src="@drawable/man" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="AMIRRUDIN ISMAIL BIN ADLAN RAHIM"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvIC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="969696665151"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/vacc1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvVaccine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Pfizer"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvDateTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="12/12/12, 09:00AM"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvFacility1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="KLCC"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:outlineProvider="background"
+        android:padding="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/vacc2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvVaccine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Pfizer"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvDateTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="12/12/12, 09:00AM"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvFacility2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="KLCC"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

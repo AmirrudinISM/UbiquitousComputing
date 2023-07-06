@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactList">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="012-3456789"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="012-3456789"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="012-3456789"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="012-3456789"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/clipart4349876"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/clipart4349876"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/clipart4349876"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/clipart4349876"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <View
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="724dp" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/clipart4349876"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="63dp"
+        android:layout_height="57dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="012-3456789"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="46dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

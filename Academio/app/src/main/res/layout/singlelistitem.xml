@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp">
+
+
+    <TextView
+        android:id="@+id/lblQualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Qualification"
+        android:textStyle="bold"
+        android:textSize="18dp"></TextView>
+    <TextView
+        android:id="@+id/lblGradYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Graduated in "></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="10dp"
+            android:text="View certificate"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="10dp"
+            android:text="View transcript"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="10dp"
+            android:text="Share"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

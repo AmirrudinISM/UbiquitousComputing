@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Health Management</string>
+    <string name="greet">Hi There!</string>
+    <string name="reminderText">Always wear mask bring hand-sanitizer wherever you go bbg.</string>
+    <string name="articleTitle1">Covid-19 Watch: 1,099,250 children in Malaysia fully vaccinated.</string>
+    <string name="articleTitle2">31pc of children in Malaysia fully vaccinated against Covid-19.</string>
+    <string name="articleTitle3">PICKids helped to reduce Covid-19 infections among kids</string>
+    <string name="articleTitle4">Covid-19 (May 19): 2,124 new cases, 3 deaths.</string>
+    <string name="certTitle"><b>COVID-19 Vaccination</b></string>
+    <string name="map_key" translatable="false">AIzaSyBPoSfUVsXkNcjYjqeDtwGIz1KgTeQpvC4</string>
+
+    <string name="vacc1"><b>Dose 1</b></string>
+    <string name="vacc2"><b>Dose 2</b></string>
+    <string name="articleContent1">KUALA LUMPUR: Thirty-one per cent of children in the country have taken two doses of the Covid-19 vaccine.Data on CovidNow showed that 10,497 children aged five to 11 have received their second dose yesterday, while 7,137 children have taken their first dose.</string>
+    <string name="articleContent2">Active cases dipped slightly to 29,229, where 96 per cent of them are undergoing home quarantine, 3.8 per cent are treated at hospitals, 0.2 per cent warded at the intensive care units (ICU) and 0.1 per cent placed at the Covid-19 quarantine and treatment centres.</string>
+    <string name="articleContent3">Health director-general Tan Sri Dr Noor Hisham Abdullah said the national infectivity rate, or Rt, stood at 0.85 on Friday.The Rt in nine and federal territories were above 1.00 while states and federal territories with a Rt below 1.00 were Selangor, Johor, Kelantan, Labuan, Terengganu, Sarawak and Perlis.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_health_maps">HealthMaps</string>
+</resources>

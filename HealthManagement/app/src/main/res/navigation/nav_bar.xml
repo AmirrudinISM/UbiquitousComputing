@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar"
+    app:startDestination="@id/menu1F">
+    <fragment
+        android:id="@+id/menu1F"
+        android:name="com.example.healthmanagement.Menu1F"
+        android:label="fragment_menu1"
+        tools:layout="@layout/fragment_menu1" />
+    <fragment
+        android:id="@+id/settings2F"
+        android:name="com.example.healthmanagement.Settings2F"
+        android:label="fragment_settings2"
+        tools:layout="@layout/fragment_settings2" />
+    <activity
+        android:id="@+id/temp"
+        android:name="com.example.healthmanagement.temp"
+        android:label="activity_temp"
+        tools:layout="@layout/activity_temp" />
+</navigation>

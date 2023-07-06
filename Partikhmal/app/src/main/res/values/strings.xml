@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Partikhmal</string>
+    <string name="map_key" translatable="false">AIzaSyBPoSfUVsXkNcjYjqeDtwGIz1KgTeQpvC4</string>
+    <string name="title_activity_health_facilities">HealthFacilities</string>
+    <string name="certTitle"><b>COVID-19 Vaccination</b></string>
+    <string name="vacc1"><b>Dose 1</b></string>
+    <string name="vacc2"><b>Dose 2</b></string>
+</resources>
